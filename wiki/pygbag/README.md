@@ -1,3 +1,4 @@
+# Home
 Hey there, Welcome to the Pygbag Wiki!
 > In this wiki, you will learn how to use pygbag, and how to convert your game, made with pygame, to web.
 
