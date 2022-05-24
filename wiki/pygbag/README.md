@@ -124,7 +124,7 @@ The necessary changes you need to make are:
 4. In the last line of the program, out side th main function write this line `asyncio.run( main() )`
 > NOTE: Don't write anything after this line as this line is kind of like running the code and anything after this line would be ignored by the program.
 
-Uploading your game on itch.io (Bonus)
+# *Uploading your game on itch.io (Bonus)*
 ## In this chapter you will learn how to upload your game on itch.io
 So, for others to be able to play your game you online, you would need to publish your game in some platform like itch.io
 
@@ -144,3 +144,10 @@ So to upload the file
 3. Upload the .zip file on the website
 4. Select `This file will be played in the browser`
 5. Then save your project
+
+After following these step, if you view your game page, then you would be able to see you game.
+Thought, if your are unable to do so, you can ask for help in the [pygame discord server](https://discord.gg/653AkjMd)
+
+# *The End*
+Congratulations! You were able to finish this tutorial on pygbag, now you can go ahead and try to make all your games available in the web too!!<br>
+Thank you for following along!
