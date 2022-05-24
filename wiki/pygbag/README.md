@@ -2,7 +2,7 @@
 Hey there, Welcome to the Pygbag Wiki!
 > In this wiki, you will learn how to use pygbag, and how to convert your game, made with pygame, to web.
 
-### Chapters in this wiki
+#### Chapters in this wiki
 * Installation
 * Web Testing
 * Templates
@@ -12,18 +12,18 @@ Hey there, Welcome to the Pygbag Wiki!
 ***
 
 # *Installation*
-# In this chapter you will install pygbag
+## In this chapter you will install pygbag
 So, to use any library, including pygbag, u would need to install that library, using a tool called pip
 
 pip is a tool used to install libraries, it can be installed while installing python.
 
-## Check if your device has pip
+### Check if your device has pip
 1. Open your command prompt
 2. type `pip` in it and if it shows a ton of text, then you are good to go. But if shows something like <br>
 `'pip' is not recognized as an internal or external command, operable program or batch file.`<br>
 Then you can watch [this](https://www.youtube.com/watch?v=AdUZArA-kZw) tutorial to fix that.
 
-## Install pygbag
+### Install pygbag
 1. Like the previous step, open your command prompt
 2. Type the following command in it:<br>
 `pip install git+https://github.com/pmp-p/pygbag --user --upgrade`<br>
@@ -33,10 +33,10 @@ the author forgets to publish the latest version of the library.
 ***
 
 # *Web Testing*
-# In this chapter, you will test out pygbag
+## In this chapter, you will test out pygbag
 So, now we will check out how to run our games on web using pygbag.
 
-## Creating a project
+### Creating a project
 Firstly, make a folder. This folder would include all your game files.
 
 Now, add a main.py inside that folder and put this code inside it<br>
@@ -70,7 +70,7 @@ asyncio.run( main() )
 ```
 You don't need to understand what this code does, for now, as this is just some test code to check if you have the right setup.
 
-## Running your code with pygbag
+### Running your code with pygbag
 Now open your command line and and get into the parent directory of the folder you had created.
 > Parent directory as in the directory which holds the folder.
 Now type this command into it and press enter<br>
@@ -85,17 +85,17 @@ If you were able to complete this step, congratulations you were successfully ab
 ***
 
 # *Templates*
-# In this chapter you will learn about templates in pygbag
+## In this chapter you will learn about templates in pygbag
 So, you might be wondering that how will the players play your game if your window looks so small and the console takes up so much of place. To fix this, you can change the layout of the webpage using templates.
 
-## Using other templates
+### Using other templates
 So currently, pygbag uses the default template which u might wanna change, for that there are 2 ways you can try
-### 1. Using the in-built templates
+#### 1. Using the in-built templates
 For that u can use the following command<br>
 `pygbag --template window-template.tmpl folder_name`<br>
 this would now use the window-template which is prebuilt in pygbag and this template would clear everything except the window, from the webpage and align your game window to the top right corner.
 
-### 2. Installing a template and customizing it
+#### 2. Installing a template and customizing it
 For this u can go to the static folder in the [pygbag repo](https://github.com/pmp-p/pygbag/tree/main/static) and from there install one of the templates and then you can use the following command:<br>
 `pygbag --template template-name.tmpl test`<br>
 replace template-name with the name you gave to the .tmpl file and running tht would port your game to web with your desired template
@@ -105,17 +105,17 @@ Using the second approach would be better and also recommended, as in this appro
 ***
 
 # *Project Setup*
-# In this chapter you will learn how to setup your project
+## In this chapter you will learn how to setup your project
 
-## Use assets
+### Use assets
 So to include and use an asset, you would need to ad all the assets inside an assets folder. That would fix you program.
 
-## Importing other libraries
+### Importing other libraries
 This works the same as how normal import work, here you won't be needing to change anything as such.
 
 >NOTE: There's an issue related to the numpy module, and using it would break your game, so I suggest not to use it.
 
-## Code
+### Code
 You won't need to change much of your code to enable it to run with pygbag.
 The necessary changes you need to make are: 
 1. Add an `import asyncio
