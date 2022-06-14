@@ -13,7 +13,7 @@ Hey there, Welcome to the Pygbag Wiki!
 
 # *Installation*
 ## In this chapter you will install pygbag
-So, to use any library, including pygbag, u would need to install that library, using a tool called pip
+So, to use any library, including pygbag, you would need to install that library, using a tool called pip
 
 pip is a tool used to install libraries, it can be installed while installing python.
 
@@ -28,7 +28,7 @@ Then you can watch [this](https://www.youtube.com/watch?v=AdUZArA-kZw) tutorial 
 2. Type the following command in it:<br>
 `pip install git+https://github.com/pmp-p/pygbag --user --upgrade`<br>
 This would install and upgrade pygbag onto your device
-> The following command would install the pygbag repository in your device, though if you want u can also run this command<br>`pip install pygbag --upgrade`<br>This would install as well as update it so as to get the most recent version of the library. But this command is less preferred as just in case
+> The following command would install the pygbag repository in your device, though if you want you can also run this command<br>`pip install pygbag --upgrade`<br>This would install as well as update it so as to get the most recent version of the library. But this command is less preferred as just in case
 the author forgets to publish the latest version of the library.
 ***
 
@@ -89,14 +89,14 @@ If you were able to complete this step, congratulations you were successfully ab
 So, you might be wondering that how will the players play your game if your window looks so small and the console takes up so much of place. To fix this, you can change the layout of the webpage using templates.
 
 ### Using other templates
-So currently, pygbag uses the default template which u might wanna change, for that there are 2 ways you can try
+So currently, pygbag uses the default template which you might wanna change, for that there are 2 ways you can try
 #### 1. Using the in-built templates
-For that u can use the following command<br>
+For that you can use the following command<br>
 `pygbag --template window-template.tmpl folder_name`<br>
 this would now use the window-template which is prebuilt in pygbag and this template would clear everything except the window, from the webpage and align your game window to the top right corner.
 
 #### 2. Installing a template and customizing it
-For this u can go to the static folder in the [pygbag repo](https://github.com/pmp-p/pygbag/tree/main/static) and from there install one of the templates and then you can use the following command:<br>
+For this you can go to the static folder in the [pygbag repo](https://github.com/pmp-p/pygbag/tree/main/static) and from there install one of the templates and then you can use the following command:<br>
 `pygbag --template template-name.tmpl test`<br>
 replace template-name with the name you gave to the .tmpl file and running tht would port your game to web with your desired template
 <br><br>
@@ -108,10 +108,10 @@ Using the second approach would be better and also recommended, as in this appro
 ## In this chapter you will learn how to setup your project
 
 ### Use assets
-So to include and use an asset, you would need to ad all the assets inside an assets folder. That would fix you program.
+Assets are essentially all the images, fonts and sound tracks you use to make your game better. And if you are using pygame in general, you can place the assets wherever you feel like, but with pygbag, you would need to place all your assets inside your game folder, without it your program won't run. Thought if your game doesn't need any assets then you are good to go ahead not using the assets folder.
 
 ### Importing other libraries
-This works the same as how normal import work, here you won't be needing to change anything as such.
+Libraries ae basically packets of code, they are used by people to avoid the complexity of doing certain things, for eg. pygame is a graphics rendering library, and people use it so that they don't need to code all those functionalities by themselves. You wouldn't need to change anything to use libraries, you can import them how you usually do!
 
 >NOTE: There's an issue related to the numpy module, and using it would break your game, so I suggest not to use it.
 
@@ -140,7 +140,7 @@ for that for
 ### Uploading to itch.io
 So to upload the file
 1. Create a new project
-2. Select the Kinf of project as HTML
+2. Select the Kind of project as HTML
 3. Upload the .zip file on the website
 4. Select `This file will be played in the browser`
 5. Then save your project
